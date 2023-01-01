@@ -1,0 +1,25 @@
+body{
+    background-color: #e6d1c4;
+}
+header{
+    color: #0D1F2D;
+}
+
+nav{
+   color: #546A7B;
+   padding-left: 5rem;
+   position: fixed;
+   border: #0D1F2D;
+   z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+
+h3{
+    color: #FAE1DF;
+}
+
+
+  

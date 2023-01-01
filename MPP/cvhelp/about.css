@@ -1,0 +1,19 @@
+.navmain {
+    background-color: #eee;
+    display: inline-block;
+  }
+  
+  .navmain:hover {
+    background-color: #ddd;
+  }
+  
+  .navmain a {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .navmain a:hover {
+    color: #00f;
+  }
+  
