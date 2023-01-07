@@ -26,11 +26,19 @@ body{
 }
 
 #content{
-   padding: 50px;
-   left: 40px;
+   padding: 5rem;
+   left: 40rem;
    font-family: 'Press Start 2P', cursive;
    font-size: large;
    color: rgb(11, 1, 45);
    text-shadow: 1px 1px 3px rgb(129, 129, 51) rgb(19, 231, 100) rgb(51, 19, 83);
 }
 
+h1,h2,h3,h4{
+    color: rgb(19, 24, 4);
+    letter-spacing: 4px;
+}
+
+img{
+    top: 20rem;
+}

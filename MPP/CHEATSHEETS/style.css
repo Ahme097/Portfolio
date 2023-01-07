@@ -1,29 +1,91 @@
-body {
-    background: #BCBCCC;
-  }
-  
-  .card {
-    width: 350px;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #fff;
-    background-clip: border-box;
-    border: 1px solid #d2d2dc;
-    border-radius: 6px;
-    -webkit-box-shadow: 0px 0px 5px 0px rgb(249, 249, 250);
-    -moz-box-shadow: 0px 0px 5px 0px rgba(212, 182, 212, 1);
-    box-shadow: 0px 0px 5px 0px rgb(161, 163, 164);
-  }
-  
-  .cookies a {
-    text-decoration: none;
-    color: #000;
-    margin-top: 8px;
-  }
-  
-  .cookies a:hover {
-    text-decoration: none;
-    color: blue;
-    margin-top: 8px;
-  }
+body{
+  background-color: rgb(200, 200, 200);
+}
+/* Style for the nav element */
+.navgroup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(165, 165, 165);
+  padding: 20px;
+  margin: 20px;
+  list-style: none;
+    /* Position the nav element in the top right corner */
+    position: fixed;
+    right: 20px;
+    top: 20px;
+}
+
+/* Style for the nav links */
+.navgroup .nav-item a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  margin-right: 20px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(104, 104, 104);
+  font-size: large;
+  border-radius: 4px;
+}
+
+/* Style for the nav links on hover */
+.navgroup .nav-item a:hover {
+  background-color: #555;
+  cursor: pointer;
+}
+
+/* Style for the main content container */
+.main-content {
+  width: 80%;  /* Set the width to 80% of the page */
+  margin: 0 auto;  /* Center the container */
+  text-align: center;  /* Center the text inside the container */
+  padding-top: 100px;  /* Add some top padding to make room for the nav element */
+}
+
+/* Style for the title */
+.main-content h2 {
+  color: rgba(0, 36, 167, 0.493);  /* Dark gray text color */
+  font-size: 36px;  /* Large font size */
+  margin-bottom: 20px;  /* Add some space between the title and the paragraph */
+}
+
+/* Style for the paragraph */
+.main-content p {
+  color: rgb(99, 0, 0);  /* Light gray text color */
+  font-size: 18px;  /* Medium font size */
+  line-height: 1.5;  /* Increase the line height for easier reading */
+}
+
+img{
+  padding-left: 290px;
+}
+
+
+
+.blogdiv{
+  padding-top: 130px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
+  color:rgb(11, 1, 21)
+}
+
+.blogs{
+  background-image: url(/img/notepad-g7fe31b7ff_1920.jpg);
+}
+
+.blogdivtitle{
+  color: rgb(163, 43, 43);
+}
+
+.semanticlist{
+  list-style: none;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.semantic{
+  padding-top: 100px;
+  color: rgb(25, 10, 186);
+  font-size: larger;
+}
